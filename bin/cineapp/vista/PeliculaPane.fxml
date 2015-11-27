@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<GridPane styleClass="background" stylesheets="@tema.css" GridPane.halignment="CENTER" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cineapp.vista.PeliculaPaneController">
+	<columnConstraints>
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="160.0" />
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints minHeight="10.0" prefHeight="250.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+	</rowConstraints>
+	<children>
+		<ImageView fx:id="iVPoster" fitHeight="200.0" fitWidth="150.0" onMouseClicked="#handleMovieSelection" pickOnBounds="true" preserveRatio="true" styleClass="posters" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+           <GridPane.margin>
+              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </GridPane.margin>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ImageView>
+		<Label fx:id="lblTitulo" onMouseClicked="#handleMovieSelection" styleClass="label-bright" text="Label" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Label>
+	</children>
+</GridPane>

@@ -1,0 +1,195 @@
+/** CSS **/
+.background {
+    -fx-background-color: #303030;
+    -fx-background: #303030;
+}
+
+.comment-background {
+    -fx-background-color: #404040;
+    -fx-background: #404040;
+}
+
+.comment-textField {
+	-fx-border-radius: 0.0;
+	-fx-border-width: 0px;
+	-fx-border-color: transparent;
+	-fx-background-radius: 0.0;
+	-fx-background-color: #303030;
+	-fx-background: #303030;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, #303030, 5.0, 0.0, 0.0, 0.0);
+}
+
+.comment-textField:error {
+	-fx-text-box-border: red ;
+	-fx-focus-color: red ;
+}
+
+.comment-textArea {
+	-fx-border-radius: 0.0;
+	-fx-border-width: 0px;
+	-fx-border-color: transparent;
+	-fx-background-radius: 0.0;
+	-fx-background-color: #303030;
+	-fx-background: #303030;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, #303030, 5.0, 0.0, 0.0, 0.0);
+}
+
+.comment-textArea .content {
+	-fx-border-radius: 0.0;
+	-fx-border-width: 0px;
+	-fx-border-color: transparent;
+	-fx-background-radius: 0.0;
+	-fx-background-color: #303030;
+	-fx-background: #303030;
+	-fx-text-fill: white;
+}
+
+.comment-button {
+	-fx-background-radius: 0.0;
+	-fx-background-color: #303030;
+	-fx-border-color: transparent;
+	-fx-border-width: 0px;
+	-fx-font-size: 11.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, #303030, 5.0, 0.0, 0.0, 0.0);
+}
+
+.comment-button:hover {
+	-fx-border-color: #505050;
+	-fx-border-width: 1px;
+}
+
+.comment-button:pressed {
+	-fx-background-color: #404040;
+	-fx-border-color: #505050;
+	-fx-border-width: 1px;
+}
+
+.posters {
+	-fx-effect: dropshadow(gaussian, #000000, 20.0, 0.0, 0.0, 0.0);
+}
+
+.posters:hover {
+	-fx-fit-to-width: 160.0px;
+	-fx-fit-to-height: 210.0px;
+	-fx-effect: dropshadow(gaussian, #098527, 20.0, 0.0, 0.0, 0.0);
+}
+
+.label {
+    -fx-font-size: 11.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 11.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1.0;
+}
+
+.label-header {
+    -fx-font-size: 20.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1.0;
+}
+
+.label-estado {
+    -fx-font-size: 11.0pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #fd5757;
+    -fx-opacity: 1;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #303030 transparent #303030;
+    -fx-background-color: transparent, derive(#303030,20.0%);
+}
+
+.split-pane {
+    -fx-padding: 1.0 0.0 0.0 0.0;
+}
+
+.buttonUbicaciones {
+    -fx-border-width: 0.0;
+    -fx-background-radius: 0.0;
+    -fx-background-color: #303030;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 12.0pt;
+    -fx-text-fill: #ffffff;
+    -fx-background-insets: 0.0 0.0 0.0 0.0, 0.0, 1.0, 2.0;
+}
+
+.buttonUbicaciones:hover {
+    -fx-background-color: #505050;
+    -fx-border-width: 0.0;
+}
+
+.combo-box {
+	-fx-background-color: #505050;
+	-fx-background-radius: 0.0px;
+	-fx-border-width: 0.0;
+	-fx-border-color: #505050;
+}
+
+.list-cell {
+	-fx-background-color: #505050;
+	-fx-text-fill: white;
+}
+
+.list-view {
+	-fx-background-color: #505050;
+}
+
+.list-view  .list-cell {
+	-fx-background-color: #505050, #505050;
+	-fx-border-width: 0;
+	-fx-border-color: #505050;
+	-fx-background-radius: 0.0px;
+	-fx-text-fill: white;
+} 
+
+.list-view:hover .list-cell:hover {
+	-fx-background-color: #606060, #606060;
+}
+
+.scroll-bar{
+ 	-fx-background-color: #303030;
+ 	-fx-background-radius: 0.0px;
+}
+
+.scroll-bar:vertical .track {
+ 	-fx-background-color: transparent;
+ 	-fx-border-color:transparent;
+ 	-fx-background-radius: 0.0px;
+}
+
+.scroll-bar:vertical .track-background {
+ 	-fx-background-color: transparent;
+ 	-fx-background-insets: 0.0;
+ 	-fx-background-radius: 0.0px;
+}
+
+.scroll-bar:vertical .thumb {
+ 	-fx-background-color: #505050;
+ 	-fx-background-radius: 0.0px;
+}
+
+.scroll-bar:vertical .thumb:hover {
+ 	-fx-background-color: #606060;
+}
+
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+ 	-fx-background-color:transparent;
+ 	-fx-background-radius: 0.0px;
+ 	-fx-padding: 5;
+ }
+
+.scroll-bar:vertical:focused {
+ 	-fx-background-color: transparent,rgb(96.0,96.0,96.0),rgb(96.0,96.0,96.0);
+}

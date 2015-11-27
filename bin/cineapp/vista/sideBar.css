@@ -1,0 +1,40 @@
+/** CSS **/
+.backgorund {
+	-fx-background-color: #ffffff;
+}
+
+.logo {
+	-fx-effect: dropshadow(gaussian, #000000, 50, 0, 0, 0);
+}
+
+.MainTitle {
+	-fx-font-size: 20pt;
+	-fx-font-family: "Segoe UI";
+	-fx-text-fill: white;
+	-fx-background-color: rgba(48,48,48,.5);
+}
+
+.button {
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 12pt;
+    -fx-text-fill: #0b6c1f;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #a4d6a5;
+    -fx-border-width: 0;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #0b6c1f;
+}
+
+.button:focused {
+	-fx-background-color: #a4d6a5;
+    -fx-border-width: 0;
+}
