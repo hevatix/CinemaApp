@@ -14,5 +14,3 @@ post their thougts about the app, or give feedback to the company.
   To make this application work you will need to setup a MySQL database server, wich will store all the
 information about the movies, schedules or file locations for the media resources (images and trailers).
 You will also need a web server that will be were all the media will be stored.
-
-^_^
